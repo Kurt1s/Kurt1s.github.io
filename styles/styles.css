@@ -1,0 +1,17 @@
+div.container {
+    height: 300px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: bottom ;
+    margin: 0;
+}
+
+a
+{
+    margin: 0px;
+    display: inline-block
+}
+img {
+    width: 12vw;
+}
