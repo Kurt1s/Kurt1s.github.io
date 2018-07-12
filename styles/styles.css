@@ -1,17 +1,56 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  src: url('assets/fonts/AcrosstheRoad.ttf')  format('truetype');
+  margin: 0px;
+}
+
+.head {
+    margin: 0 35px;
+}
+h1 {
+    display: block;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #1c2430;
+    display: inline-block;
+}
+
+#gitLink {
+   position: fixed;
+   bottom: 5vh; 
+   right: 50%;
+}
+#gitIcon {
+    height: 5vw;
+    width: auto;
+}
 div.container {
     height: 300px;
     display : flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: bottom ;
-    margin: 0;
-}
 
-a
-{
+    border-top: 2px solid black;
+}
+a {
     margin: 0px;
     display: inline-block
 }
 img {
     width: 12vw;
+}
+p {
+    margin: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+ol {
+    font-size: 20px;
+    margin: 50px;
 }
