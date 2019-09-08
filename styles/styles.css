@@ -29,6 +29,15 @@ h2 {
     height: 5vw;
     width: auto;
 }
+
+#JStitle {
+    align-content: center;
+    text-align: center;
+}
+
+#filler {
+    
+}
 div.container {
     height: 300px;
     display : flex;
@@ -39,8 +48,9 @@ div.container {
     border-top: 2px solid black;
 }
 a {
-    margin: 0px;
-    display: inline-block
+    margin: 15px;
+    font-size: 25px;
+    text-decoration-line: none;
 }
 img {
     width: 12vw;
@@ -48,9 +58,10 @@ img {
 p {
     margin: 70px;
     font-size: 20px;
-    text-align: center;
 }
 ol {
     font-size: 20px;
-    margin: 50px;
+    /* margin: 50px; */
+    text-align: center;
+    
 }
