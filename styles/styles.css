@@ -20,10 +20,19 @@ h2 {
     display: inline-block;
 }
 
-#gitLink {
+#gitLink{
    position: fixed;
    bottom: 5vh; 
    right: 50%;
+}
+
+#dbLink #dbIcon{
+    
+    position: fixed;
+    bottom: 20vh;
+    right: 50.5%;
+    height: 5vw;
+    width: auto;
 }
 #gitIcon {
     height: 5vw;
